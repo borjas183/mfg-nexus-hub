@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f2f1;
+  padding: 24px;
+  color: #323130;
+  max-width: 1000px;
+  margin: auto;
+}
+h1, h2 {
+  color: #201f1e;
+}
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.button-grid a {
+  background: #0078d4;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.button-grid a:hover {
+  background: #005a9e;
+}
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 24px;
+}
+ul, ol {
+  padding-left: 20px;
+  color: #605e5c;
+}
+a {
+  color: #0078d4;
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .button-grid a {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
